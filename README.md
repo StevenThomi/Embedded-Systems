@@ -1,2 +1,2 @@
 # Embedded-Systems
-A collection of software developed to be run on ARM processors.
+A collection of software developed to be run on Embedded Systems.
