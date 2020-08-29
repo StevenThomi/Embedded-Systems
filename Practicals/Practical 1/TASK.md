@@ -1,4 +1,4 @@
-# Scenario
+## Scenario
 
 You are on a team responsible for developing a super simple SPI interface for working with a low baud-rate multiplexer. To save costs, you suggest that, given the scope of the problem is so well defined and the requirements so loose, you can get away with using the GPIO pins of a cheap microcontroller instead of having to buy a microcontroller with dedicated SPI pins. Your team leader takes this idea and presents it to management as their own.
 
