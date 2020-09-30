@@ -1,0 +1,120 @@
+
+\documentclass[journal]{IEEEtran}
+
+%All packages used goes here:
+\usepackage{lipsum}
+\usepackage{graphicx}
+
+
+
+\begin{document}
+
+\title{Your Title\\ New Line}
+
+
+\author{Student Name - \textit{Student number}\\
+        Student Name - \textit{Student number}\\
+        Student Name - \textit{Student number}\\
+}
+
+\markboth{EEE1006F Semester Project - Electrical Engineering Department - UCT - \today}%
+{Shell \MakeLowercase{\textit{et al.}}: Bare Demo of IEEEtran.cls for IEEE Journals}% <- leave this as is
+
+\maketitle
+
+\begin{abstract}
+The abstract goes here.
+\end{abstract}
+
+\IEEEpeerreviewmaketitle
+
+
+
+\section{Introduction}
+
+\IEEEPARstart{T}{his} 
+\lipsum[10] % <- remove this nonsense text
+
+
+
+\subsection{Subsection Heading Here}
+Subsection text here. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Figures: See: https://www.overleaf.com/learn/latex/Inserting_Images
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%Here is how you would add an image. First upload the image on the left of your screen by pressing on the up arrow next to the folder icon.
+\begin{figure}[h!]
+\centering % <- centre the image
+\includegraphics[width=8cm]{example.jpg} % <- set the size and file path/name
+\caption{Example of an image}
+\label{fig:circ} %<- give the figure a name to refer to later
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%References:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Refer to Figure \ref{fig:circ} like this. Refer to Equation \ref{Eq:E} like this. Refer to Table \ref{tab:cells} like this.
+
+Cite a reference like this: blah blah blah \cite{examplecite} %  <- see the name at the end under bibliography
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Paragraphs and pages:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage %<- new page
+
+Blah\\\\ %  <- use this at the end of a paragraph to create a paragraph space
+
+Blah\\ %  <- use this at the end of a paragraph to create a new paragraph without space
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Maths: See: https://www.codecogs.com/latex/eqneditor.php
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+In line maths is done like this $P=I^{2}R$, otherwise use:
+\begin{equation}
+E=mc^{2}
+\label{Eq:E} %<- give the figure a name to refer to later
+\end{equation}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Tables: See: https://www.tablesgenerator.com/ and https://www.overleaf.com/learn/latex/Tables
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin {table}[h!]
+\begin{center}
+\label{tab:cells} %<- give the figure a name to refer to later
+\caption{Table name}
+\begin{tabular}{ |c|c|c| } 
+ \hline
+ cell1 & cell2 & cell3 \\  \hline
+ cell4 & cell5 & cell6 \\  \hline
+ cell7 & cell8 & cell9 \\  \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\subsubsection{Subsubsection Heading Here}
+Subsubsection text here. 
+\lipsum[10] % <- remove this nonsense text
+
+
+
+\section{Conclusion}
+The conclusion goes here.
+\lipsum[10] % <- remove this nonsense text
+
+\begin{thebibliography}{1}
+
+%Add your references below (I'm not too fussed if this isn't perfect)
+\bibitem{examplecite}
+H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
+  0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
+
+\end{thebibliography}
+
+
+\end{document}
+
+
