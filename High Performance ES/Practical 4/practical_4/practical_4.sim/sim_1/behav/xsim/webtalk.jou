@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2020.3 (64-bit)
+# SW Build 3173277 on Wed Apr  7 05:07:21 MDT 2021
+# IP Build 3174024 on Wed Apr  7 23:42:35 MDT 2021
+# Start of session at: Wed May 26 21:22:46 2021
+# Process ID: 29659
+# Current directory: /home/thmste021/EEE4120F/EEE4120F/Prac4/ug937-design-files/practical_4/practical_4.sim/sim_1/behav/xsim
+# Command line: wbtcv -mode batch -source /home/thmste021/EEE4120F/EEE4120F/Prac4/ug937-design-files/practical_4/practical_4.sim/sim_1/behav/xsim/xsim.dir/testbench_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/thmste021/EEE4120F/EEE4120F/Prac4/ug937-design-files/practical_4/practical_4.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: /home/thmste021/EEE4120F/EEE4120F/Prac4/ug937-design-files/practical_4/practical_4.sim/sim_1/behav/xsim/webtalk.jou
+#-----------------------------------------------------------
+source /home/thmste021/EEE4120F/EEE4120F/Prac4/ug937-design-files/practical_4/practical_4.sim/sim_1/behav/xsim/xsim.dir/testbench_behav/webtalk/xsim_webtalk.tcl -notrace

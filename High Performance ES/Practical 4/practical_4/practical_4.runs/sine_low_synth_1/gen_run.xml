@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="sine_low_synth_1" LaunchPart="xcvc1902-vsva2197-2MP-e-S" LaunchTime="1622053916">
+  <File Type="VDS-TIMING-PB" Name="sine_low_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="sine_low_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="sine_low.dcp"/>
+  <File Type="REPORTS-TCL" Name="sine_low_reports.tcl"/>
+  <File Type="PA-TCL" Name="sine_low.tcl"/>
+  <File Type="RDS-RDS" Name="sine_low.vds"/>
+  <File Type="RDS-PROPCONSTRS" Name="sine_low_drc_synth.rpt"/>
+  <File Type="RDS-UTIL" Name="sine_low_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="sine_low_utilization_synth.pb"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/sine_low">
+    <File Path="$PSRCDIR/sources_1/ip/sine_low/sine_low.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="sine_low"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/sine_low">
+    <File Path="$PSRCDIR/sources_1/ip/sine_low/sine_low.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="sine_low"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

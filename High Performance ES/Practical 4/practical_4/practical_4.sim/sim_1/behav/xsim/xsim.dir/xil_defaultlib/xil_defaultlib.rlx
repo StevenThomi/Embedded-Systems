@@ -1,0 +1,13 @@
+0.7
+v2020.3.0
+Apr  7 2021
+05:23:02
+/home/thmste021/EEE4120F/EEE4120F/Prac4/ug937-design-files/practical_4/practical_4.gen/sources_1/ip/sine_high/sim/sine_high.vhd,1622053493,vhdl,,,,sine_high,,,,,,,,
+/home/thmste021/EEE4120F/EEE4120F/Prac4/ug937-design-files/practical_4/practical_4.gen/sources_1/ip/sine_low/sim/sine_low.vhd,1622053915,vhdl,,,,sine_low,,,,,,,,
+/home/thmste021/EEE4120F/EEE4120F/Prac4/ug937-design-files/practical_4/practical_4.gen/sources_1/ip/sine_mid/sim/sine_mid.vhd,1622053720,vhdl,,,,sine_mid,,,,,,,,
+/home/thmste021/EEE4120F/EEE4120F/Prac4/ug937-design-files/practical_4/practical_4.sim/sim_1/behav/xsim/glbl.v,1617756343,verilog,,,,glbl,,,,,,,,
+/home/thmste021/EEE4120F/EEE4120F/Prac4/ug937-design-files/sim/testbench.v,1622051350,verilog,,,,testbench,,,,,,,,
+/home/thmste021/EEE4120F/EEE4120F/Prac4/ug937-design-files/sources/debounce.vhd,1622051435,vhdl,,,,debounce,,,,,,,,
+/home/thmste021/EEE4120F/EEE4120F/Prac4/ug937-design-files/sources/fsm.vhd,1622051479,vhdl,,,,fsm,,,,,,,,
+/home/thmste021/EEE4120F/EEE4120F/Prac4/ug937-design-files/sources/sinegen.vhd,1622051552,vhdl,,,,sinegen,,,,,,,,
+/home/thmste021/EEE4120F/EEE4120F/Prac4/ug937-design-files/sources/sinegen_demo.vhd,1622051530,vhdl,,,,sinegen_demo,,,,,,,,

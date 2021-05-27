@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../practical_4.gen/sources_1/ip/sine_high/sim/sine_high.vhd" \
+
+nosort

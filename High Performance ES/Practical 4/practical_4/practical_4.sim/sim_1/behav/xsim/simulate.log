@@ -1,0 +1,33 @@
+Vivado Simulator v2020.3.0
+Time resolution is 1 ps
+[@0] LEDS_n = xx00
+[@8000] LEDS_n = x000
+[@13000] LEDS_n = 0000
+[@113000] LEDS_n = x000
+[@3518000] LEDS_n = x100
+[@3523000] LEDS_n = x001
+[@3523000] LEDS_n = x001
+[@3538000] LEDS_n = 0001
+[@6008000] LEDS_n = 0101
+[@6013000] LEDS_n = 0010
+[@6013000] LEDS_n = 0010
+$finish called at time : 7005 ns : File "/home/thmste021/EEE4120F/EEE4120F/Prac4/ug937-design-files/sim/testbench.v" Line 76
+[@0] LEDS_n = xx00
+[@8000] LEDS_n = x000
+[@13000] LEDS_n = 0000
+[@113000] LEDS_n = x000
+[@3518000] LEDS_n = x100
+[@3523000] LEDS_n = x001
+[@3523000] LEDS_n = x001
+[@3538000] LEDS_n = 0001
+[@6008000] LEDS_n = 0101
+[@6013000] LEDS_n = 0010
+[@6013000] LEDS_n = 0010
+$finish called at time : 7005 ns : File "/home/thmste021/EEE4120F/EEE4120F/Prac4/ug937-design-files/sim/testbench.v" Line 76
+[@0] LEDS_n = xx00
+[@8000] LEDS_n = x000
+[@13000] LEDS_n = 0000
+Stopped at time : 102500 ps : File "/home/thmste021/EEE4120F/EEE4120F/Prac4/ug937-design-files/sources/sinegen.vhd" Line 137
+Stopped at time : 107500 ps : File "/home/thmste021/EEE4120F/EEE4120F/Prac4/ug937-design-files/sources/sinegen.vhd" Line 137
+Stopped at time : 107500 ps : File "/home/thmste021/EEE4120F/EEE4120F/Prac4/ug937-design-files/sources/sinegen.vhd" Line 144
+Stopped at time : 112500 ps : File "/home/thmste021/EEE4120F/EEE4120F/Prac4/ug937-design-files/sources/sinegen.vhd" Line 137
