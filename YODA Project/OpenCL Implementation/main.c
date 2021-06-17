@@ -128,15 +128,15 @@ int main(void) {
     //! Execute the OpenCL kernel on the list
     size_t global_item_size = block_size; //!< Process the entire lists
     size_t local_item_size = 1; //!< Divide work items into groups
+    tic();
     ret = clEnqueueNDRangeKernel(command_queue, kernel, 1, NULL,
             &global_item_size, &local_item_size, 0, NULL, NULL);
+    printf("\nOpenCL Implementation: %.5f ms\n\n", toc()/1e-3);
 
     //! Read the memory buffer output_index on the device to the local variable output_index
     int output_index;
     ret = clEnqueueReadBuffer(command_queue, output_index_mem_obj, CL_TRUE, 0,
             1 * sizeof(int), &output_index, 0, NULL, NULL);
-
-    printf("\nOpenCL Implementation: %.5f ms\n\n", toc()/1e-3);
 
     //! Display the result to the screen
     printf("The pattern to be searched for is: \n");
