@@ -17,8 +17,8 @@
 // You should have received a copy of the GNU General Public License
 // along with this program.  If not, see <http://www.gnu.org/licenses/>
 //
-// Settings of the OpenCL application have been largely inspired by:
-// https://en.wikipedia.org/wiki/Message_Passing_Interface#Example_program
+// Settings of the OpenCL application have been inspired by:
+// https://www.eriksmistad.no/getting-started-with-opencl-and-gpu-computing/
 //==============================================================================
 
 #include <stdio.h>
